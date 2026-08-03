@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -23,30 +23,49 @@
           <span class="brand-mark">MW</span>
           <span class="brand-copy">Freelance Web Developer</span>
         </a>
-        <nav class="nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
+        <div class="nav-wrap">
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+          </nav>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </div>
       </header>
 
       <main id="home" class="stack">
         <section class="hero">
-          <p class="eyebrow">Web Developer / Landing Page Developer / Small Business Websites</p>
-          <h1>Modern Websites That Help Small Businesses Get More Customers</h1>
-          <p class="lead">
-            I build fast, professional websites and landing pages for local businesses, startups, and service companies.
-          </p>
-          <div class="button-row" aria-label="Key benefits">
-            <span class="pill">Modern Design</span>
-            <span class="pill">Mobile Friendly</span>
-            <span class="pill">Fast Delivery</span>
+          <div class="hero-copy">
+            <p class="eyebrow">Web Developer / Landing Page Developer / Small Business Websites</p>
+            <h1>Modern Websites That Help Small Businesses Get More Customers</h1>
+            <p class="lead">
+              I build fast, professional websites and landing pages for local businesses, startups, and service companies.
+            </p>
+            <div class="button-row" aria-label="Key benefits">
+              <span class="pill">Modern Design</span>
+              <span class="pill">Mobile Friendly</span>
+              <span class="pill">Fast Delivery</span>
+            </div>
+            <div class="button-row hero-actions">
+              <a class="button button-primary" href="https://wa.me/77785520300" target="_blank" rel="noreferrer">Contact on WhatsApp</a>
+              <a class="button button-secondary" href="#projects">View My Work</a>
+            </div>
           </div>
-          <div class="button-row">
-            <a class="button button-primary" href="#projects">View My Work</a>
-            <a class="button button-secondary" href="#contact">Let's Talk</a>
-          </div>
+
+          <aside class="contact-card" aria-label="Quick contact panel">
+            <p class="section-label">Immediate Contact</p>
+            <h2>Need a website now?</h2>
+            <p>Message me directly. I reply by email or WhatsApp.</p>
+            <div class="button-row">
+              <a class="button button-primary" href="https://wa.me/77785520300" target="_blank" rel="noreferrer">WhatsApp</a>
+              <a class="button button-secondary" href="mailto:sava.molchanov.07@gmail.com">Email</a>
+            </div>
+            <p class="contact-line">
+              <a href="mailto:sava.molchanov.07@gmail.com">sava.molchanov.07@gmail.com</a>
+              <span>|</span>
+              <a href="https://wa.me/77785520300" target="_blank" rel="noreferrer">WhatsApp</a>
+            </p>
+          </aside>
         </section>
 
         <section id="about" class="section">
@@ -104,8 +123,8 @@
           <h2>If you're looking for a modern website that helps your business stand out, I'd be happy to help.</h2>
           <p>Let's discuss your project.</p>
           <div class="button-row">
-            <a class="button button-primary" href="mailto:sava.molchanov.07@gmail.com">Email Me</a>
-            <a class="button button-secondary" href="https://wa.me/77785520300" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a class="button button-primary" href="https://wa.me/77785520300" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a class="button button-secondary" href="mailto:sava.molchanov.07@gmail.com">Email Me</a>
           </div>
           <p class="contact-line">
             <a href="mailto:sava.molchanov.07@gmail.com">sava.molchanov.07@gmail.com</a>
@@ -114,6 +133,8 @@
           </p>
         </section>
       </main>
+
+      <a class="floating-cta" href="https://wa.me/77785520300" target="_blank" rel="noreferrer">Contact on WhatsApp</a>
 
       <footer class="footer">
         <span>Modern Websites for Small Businesses</span>
